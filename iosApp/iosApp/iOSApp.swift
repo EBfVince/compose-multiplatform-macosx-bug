@@ -4,7 +4,16 @@ import SwiftUI
 struct iOSApp: App {
 	var body: some Scene {
 		WindowGroup {
-			ContentView()
-		}
-	}
+            ContentView()
+        }
+        
+//        MenuBarExtra("UtilityApp", systemImage: "hammer") {
+//            Button(
+//                action: {},
+//                label: {
+//                    Text("Button")
+//                }
+//            )
+//        }
+    }
 }
